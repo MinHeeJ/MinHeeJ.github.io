@@ -1,0 +1,106 @@
+
+    html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+    dl, dt, dd, ol, ul, li, fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+       margin: 0;
+       padding: 0;
+       border: 0;
+       font-size: 100%;
+       font: inherit;
+       vertical-align: baseline;
+      box-sizing: border-box;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+       display: block;
+    }
+    ol, ul {
+       list-style: none;
+    }
+    blockquote, q {
+       quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+       content: '';
+       content: none;
+    }
+    table {
+       border-collapse: collapse;
+       border-spacing: 0;
+    }
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+    img {
+      display: block;
+      width: 100%;
+    }
+    @font-face {
+    font-family: 'ClimateCrisisKR-1979';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/ClimateCrisisKR-1979.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: 'NeoDunggeunmo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    
+    header			{ background-color:#C797FF; height: 55px; margin: 0px;}
+    #xbox			{ position: fixed; width: 1.7%; left: 97.5%; display: inline;}
+    #list           { background-color:#C797FF; position: fixed; width:100%; height: 55px; padding-top: 10px; z-index: 150;}
+    #list a			{ text-decoration: none; font-family: 'GongGothicMedium''KIMM_Bold', sans-serif; font-size: 25px; font-weight: 600; margin: 0 0 0 1.5%;}
+    #list a:hover, #now   { color: white; text-shadow: 3px 3.5px 1px #59565e;}
+    main            { height:950px; width: 1024px; margin: auto;}
+    #profileHead    { width: 100%; height: 24%; margin-top: 3%; }
+    #profileContents    { width: 100%; height: 75%; position:sticky;}
+    .profileBox     { width: 100%; margin-top: 1%; padding: 2.5%; opacity: 0; transition: all 1.2s ease .1s;}
+    #profileHead, .profileBox    { border: 1.2px solid rgb(45, 44, 44); border-radius: 3.5%/15%; box-shadow: 0.5px 3px 0 rgb(45, 44, 44);}
+    #profile1       { background-color:#C797FF; height: 25%;}
+    #profile2       { background-color:#eadef7; height: 25%;}
+    #roadmap        { background-color:#060606; height: 40%; background-size: 2%; background-repeat: no-repeat; background-position:18.2% 28%;}
+    #profileimg     { width: 18%; height: 100%; display: inline-block; text-align: center; margin: 0% 2%;}
+    #introducetext  { width: 47%; height: 100%; display: inline-block; margin-right: 1%; vertical-align: top; padding: 1%;}
+    #profilelist    { width: 25%; height: 70%; display: inline-block; border-left: solid 3.5px black; vertical-align: top; margin-top: 3.5%; padding: 0.1% 0% 0% 3.5%;}
+    #profileimg img { width: 80%; border-radius: 50%; margin: auto;  margin-top: 18%; border: 0.2px solid #8c8c8cd8; box-shadow: 3px 2px 1px rgb(45, 44, 44)}
+    #profilelist>p  { font-weight: 900; margin-top: 1.5%; font-size: 18px;}
+    .boxtitle>p   { font-family: 'NeoDunggeunmo', sans-serif; font-weight: 300; margin:0.3%; font-size: 31px; display: inline-block; border-radius: 3%/15%;}
+    #profile1>.boxtitle>p  { background-color: white;}
+    #profile2>.boxtitle>p  { background-color: #C797FF; }
+    #roadmap>.boxtitle>p    { background-color: white;}
+    #clickHere {color: white; font-family: 'NeoDunggeunmo', sans-serif; font-weight: 100; font-size: 22px; width:50%; display: inline-block; margin: 4% 0% 0% 11%; animation : poppop 1s ease infinite alternate;}
+    #minhee         { font-family: 'GongGothicMedium', sans-serif; font-weight: 400; font-size: 40px; margin-top: 12%;}
+    #minhee+span    { font-family: 'GmarketSansMedium', sans-serif; font-size:15px; font-weight: 100; color: #3d3d3d;}
+    .icons          { display: inline-block; width: 10.5%; height: 70%; margin-left: 5%; text-align: center;}
+    .icons>p        { font-family: 'NeoDunggeunmo', sans-serif; font-weight: 100; font-size: 20px; margin-top: 8%;}         
+    .boxtitle       { display: inline-block; width: 30%; height: 100%; vertical-align: top;  margin: 0.7% 1.5% 0 0.7%;}
+    #blank  {width: 90%; background-color: #C797FF; height: 1.5%; z-index: 20; display: inline-block; top:81.5%; left: 5.0%; position: absolute; overflow: hidden; border-radius: 1%/50%;}
+    #fill   {width: 100%; background-color: white; height: 100%; z-index: 10; display: inline-block; position:absolute; left: 1%; transition: all 2s ease 0s;}
+    #roadmapText    { width: 90%; color: white; height: 3%; z-index: 25; display: inline-block; text-align: center; top:70.5%; left: 5.1%; position: absolute; font-size: 16px; font-family:'GongGothicMedium';}
+    #roadmapText span { display: inline-block; width: 19.6%; opacity: 0; transition: all 2s ease 0s;}
+    @keyframes poppop{50%{ opacity: 0.1;}100%{ opacity: 1;}}
