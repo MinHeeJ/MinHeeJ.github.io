@@ -6,7 +6,7 @@ const contries = {
     UK : ["../image/London1.jpg","../image/London2.jpg","../image/London3.jpg","../image/London4.jpg"],
     singapore : ["../image/Singapore1.jpg","../image/Singapore2.jpg","../image/Singapore3.jpg","../image/Singapore4.jpg"],
     taiwan : ["../image/Taiwan1.jpg","../image/Taiwan2.jpg","../image/Taiwan3.jpg","../image/Taiwan4.jpg"],
-    hungary : ["../image/Hungary1.jpg","../image/Hungary2.jpg","../image/Hungary3.jpg","../image/Hungary4.jpg"],
+    hungary : ["../image/hungary1.jpg","../image/hungary2.jpg","../image/hungary3.jpg","../image/hungary4.jpg"],
 }
 document.querySelector("#france").onclick=(e)=>{events(e.target); test(contries.france);};
 document.querySelector("#UK").onclick=(e)=>{test(contries.UK); events(e.target);};
