@@ -75,7 +75,7 @@
     #list           { background-color:#C797FF; position: fixed; width:100%; height: 55px; padding-top: 10px; z-index: 150;}
     #list a			{ text-decoration: none; font-family: 'GongGothicMedium''KIMM_Bold', sans-serif; font-size: 25px; font-weight: 600; margin: 0 0 0 1.5%;}
     #list a:hover, #now   { color: white; text-shadow: 3px 3.5px 1px #59565e;}
-    main>img        { z-index: -10; width: 100%; height: 950px; display: flex; position: absolute; opacity: 0; transition: all 1.7s ease 0s;}
+    main>img        { z-index: -10; width: 100%; height: 100%; display: flex; position: absolute; opacity: 0; transition: all 1.7s ease 0s;}
     section         { height:950px; width: 1024px; margin: auto; text-align: center;}
     #folders        { background-image: url(../image/FrameFolder.png); background-size:cover; width: 87.1%; height: 70.1%; display: inline-block; margin-top: 2%; padding: 2.3% 3% 5% 3%;}
     #popup          { position: fixed; width: 80%; height: 100%; top : 0; bottom : 0; left:5%; right: 0; z-index: 3000; display: none;}
